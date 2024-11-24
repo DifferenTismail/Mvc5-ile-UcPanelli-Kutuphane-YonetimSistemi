@@ -1,0 +1,18 @@
+﻿@model MvcKutuphane.Models.Entity.Tbl_Kategori
+@{
+    ViewBag.Title = "YeniKategori";
+    Layout = "~/Views/Shared/Layout.cshtml";
+}
+
+<a class="badge mt-4">Yeni Kategori Girişi</a>
+<form class="form-group mt-4" method="post">
+    <div>
+        <label>Kategori Adı</label>
+        <input type="text" class="form-control" name="Ad" />
+    </div> 
+    <div class="mt-2">
+        <button class="btn btn-info" id="Btn1">Kategori Ekle</button>
+    </div>
+</form>
+
+
